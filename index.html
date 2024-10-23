@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="topbar">
+        <h1>PORTFOLIO</h1>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-house"></i> <span>Home</span></a></li>
+            <li><a href="#Profile"><i class="fas fa-user"></i> <span>Profile</span></a></li>
+            <li><a href="#Skills"><i class="fas fa-desktop"></i> <span>Skills</span></a></li>
+        </ul>
+    </div>
+    <div id="home" class="home">
+        <img src="image/BG.png" alt="Home Image" class="full-img">
+        <div class="profile-pic">
+            <img src="image/profile.png" alt="Profile Picture">
+            <p>James Edward</p>
+            <div class="social-icons">
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div  id="Profile" class="Profile">
+            <h1>About Me</h1>
+            <p>Hi, I’m James Edward. I’m a creative thinker with a background in graphic design and digital marketing. I love solving problems and coming up with fresh ideas. In my free time, I enjoy photography, hiking, and learning about new tech trends. I’m always looking for opportunities to grow and improve in my work.
+            </p>
+            <div class="icon-container">
+                <div class="icon">
+                    <div class="circle-icon">
+                        <i class="fa-brands fa-bitcoin"></i>
+                    </div>
+                    <p>NFT</p>
+                </div>
+                <div class="icon">
+                    <div class="circle-icon">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                    </div>
+                    <p>Mutual Fund</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Skills" class="Skills">
+        <h1>Skills</h1>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="percent-bar">
+                <div class="percent-fill" style="width: 70%;">
+                    <span class="percent-text">70%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="percent-bar">
+                <div class="percent-fill" style="width: 60%;">
+                    <span class="percent-text">60%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="percent-bar">
+                <div class="percent-fill" style="width: 80%;">
+                    <span class="percent-text">80%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>OBS Studio</p>
+            <div class="percent-bar">
+                <div class="percent-fill" style="width: 80%;">
+                    <span class="percent-text">80%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Unity</p>
+            <div class="percent-bar">
+                <div class="percent-fill" style="width: 70%;">
+                    <span class="percent-text">70%</span>
+                </div>
+            </div>
+        </div>
+        <button id="openPopupBtn">Assignments</button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <a href="">Assignment3</a>
+          <a href="">Assignment4</a>
+          <a href="">Assignment5</a>
+          <a href="">Assignment6</a>
+          <a href="">Assignment7</a>
+        </div>
+    </div>
+</body>
+</html>
